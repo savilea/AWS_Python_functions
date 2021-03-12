@@ -16,3 +16,5 @@ def read_file_from_s3(s3_path):
         print('Unexpected file type')
     return s3_df
 
+
+df = read_file_from_s3('s3://bucketname/filepath/filename.csv') 
